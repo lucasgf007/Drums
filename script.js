@@ -13,10 +13,6 @@ document.querySelector('.composer button').addEventListener('click', ()=> {
     }
 })
 
-
-
-
-
 //Função tocar
 function playSoud(soud){
     let audioElement = document.querySelector(`#s_${soud}`); // seleciona o audio
